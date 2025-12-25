@@ -1,0 +1,130 @@
+.content-wrapper{
+    background: rgb(220,241,255);
+background: linear-gradient(90deg, rgba(220,241,255,1) 39%, rgba(231,242,255,1) 100%, rgba(253,254,255,0.9808298319327731) 100%);
+}
+
+.btn-black{
+    background-color: black!important;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: none !important;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #fff!important;
+}
+
+.form-control:focus {
+    border-bottom: 2px solid black !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: white!important;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-red {
+    background-color: #a80505;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-save {
+    background-color: #0097bd;
+    color: #000;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-black:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-white:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+#form_side_panel {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    right: -65%;
+    background-color: #292424;
+    color: #fff;
+    padding: 80px 20px;
+    transition: right 0.82s ease-in-out;
+    z-index: 20000;
+}
+
+#form_side_panel.active {
+    right: 0;
+}
+
+.table tbody td {
+    padding: 10px 15px!important;
+    border-right: 1px solid #dee2e6!important;
+    vertical-align: middle!important;
+    font-size: 14px!important;
+    color: #333!important;
+    text-align: center;
+}
+
+.table thead th {
+    padding: 10px 15px!important;
+    border-right: 1px solid #dee2e6!important;
+    text-align: center!important;
+    vertical-align: middle!important;
+    font-size: 14px!important;
+    color: #ffffff!important;
+    font-weight: 400px!important;
+    letter-spacing: 1px!important;
+}
